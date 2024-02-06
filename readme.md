@@ -1,5 +1,5 @@
 ## Encriptador de Texto (Finalizado)
-### Challenge N# 1 del Programa ONE - Oracle Next Education: GRUPO 6 en el contal consiste en un encriptador/ desencriptador de texto.
+Challenge N# 1 del Programa ONE - Oracle Next Education: GRUPO 6 en el cual consiste en un encriptador/ desencriptador de texto.
 
 ## Propósito
 Tener una aplicación que encripta textos, así podremos intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
