@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Alura Challenge - Desafío 1 - Lógica</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e9de6d301c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <section class="ingreso-texto">
+            <div id="logoAlura">
+                <img src="imagenes/logo.svg" alt="logo">
+            </div>
+            <div id="areaTextoIngreso">
+                <textarea cols="45" rows="15" placeholder="Ingrese texto aquí."></textarea>
+            </div>
+            <div id="info">
+                <p><i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos.</p>
+            </div>
+            <div id="botones">
+                <button class="boton-grande" id="encriptar">Encriptar</button>
+                <button class="boton-grande" id="desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="sale-texto">
+            <div class="derecha" id="munheco">
+                <img src="imagenes/munheco.svg" alt="Esperando Mensaje">
+                <div id="textoNoEncontrado">
+                    <h2>Ningún mensaje fue encontrado.</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>                   
+                </div>   
+            </div>
+            <div class="derecha" id="textoEncontrado">
+                <textarea cols="45" rows="8" id="textoSalida"></textarea>
+                <button id="copiar">
+                    <img src="imagenes/copiar.svg" alt="boton copiar">
+                </button>
+                <div id="textoCopiado">
+                    <p>Texto copiado.</p>
+                </div>
+            </div>
+        </section>        
+    </main>
+    <footer>
+        <p>© 2024 hecho en Rancagua, Chile con <i class="fa-regular fa-heart"></i> por Ignacio Moreno 
+            <a href="https://www.linkedin.com/in/ignaciomorenos/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a> - </a>
+            <a href="https://github.com/ignaciomorenos" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+        </p>          
+    </footer>
+    <script src="encriptador.js"></script>
+</body>
+</html>
